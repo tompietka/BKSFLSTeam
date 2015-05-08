@@ -1,0 +1,382 @@
+2015-05-08 11:31:11 Error: [MissingDatasourceConfigException] The datasource configuration "default" was not found in database.php
+Exception Attributes: array (
+  'config' => 'default',
+)
+Request URL: /BKSFLSTeam/
+Stack Trace:
+#0 C:\wamp\www\BKSFLSTeam\lib\Cake\Model\ConnectionManager.php(91): ConnectionManager::_getConnectionObject('default')
+#1 C:\wamp\www\BKSFLSTeam\lib\Cake\Model\Model.php(3617): ConnectionManager::getDataSource('default')
+#2 C:\wamp\www\BKSFLSTeam\lib\Cake\Model\Model.php(1155): Model->setDataSource('default')
+#3 C:\wamp\www\BKSFLSTeam\lib\Cake\Model\Model.php(3644): Model->setSource('posts')
+#4 C:\wamp\www\BKSFLSTeam\lib\Cake\Model\Model.php(3022): Model->getDataSource()
+#5 C:\wamp\www\BKSFLSTeam\lib\Cake\Model\Model.php(2994): Model->_readDataSource('all', Array)
+#6 C:\wamp\www\BKSFLSTeam\app\Controller\PostsController.php(9): Model->find('all')
+#7 [internal function]: PostsController->index()
+#8 C:\wamp\www\BKSFLSTeam\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(PostsController), Array)
+#9 C:\wamp\www\BKSFLSTeam\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#10 C:\wamp\www\BKSFLSTeam\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#11 C:\wamp\www\BKSFLSTeam\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 C:\wamp\www\BKSFLSTeam\index.php(41): require('C:\\wamp\\www\\BKS...')
+#13 {main}
+2015-05-08 11:35:06 Error: [MissingConnectionException] Database connection "Mysql" is missing, or could not be created.
+Exception Attributes: array (
+  'class' => 'Mysql',
+  'message' => 'SQLSTATE[HY000] [1045] Access denied for user \'user\'@\'localhost\' (using password: YES)',
+  'enabled' => true,
+)
+Request URL: /BKSFLSTeam/
+Stack Trace:
+#0 C:\wamp\www\BKSFLSTeam\lib\Cake\Model\Datasource\DboSource.php(260): Mysql->connect()
+#1 C:\wamp\www\BKSFLSTeam\lib\Cake\Model\ConnectionManager.php(105): DboSource->__construct(Array)
+#2 C:\wamp\www\BKSFLSTeam\lib\Cake\Model\Model.php(3617): ConnectionManager::getDataSource('default')
+#3 C:\wamp\www\BKSFLSTeam\lib\Cake\Model\Model.php(1155): Model->setDataSource('default')
+#4 C:\wamp\www\BKSFLSTeam\lib\Cake\Model\Model.php(3644): Model->setSource('posts')
+#5 C:\wamp\www\BKSFLSTeam\lib\Cake\Model\Model.php(3022): Model->getDataSource()
+#6 C:\wamp\www\BKSFLSTeam\lib\Cake\Model\Model.php(2994): Model->_readDataSource('all', Array)
+#7 C:\wamp\www\BKSFLSTeam\app\Controller\PostsController.php(9): Model->find('all')
+#8 [internal function]: PostsController->index()
+#9 C:\wamp\www\BKSFLSTeam\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(PostsController), Array)
+#10 C:\wamp\www\BKSFLSTeam\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#11 C:\wamp\www\BKSFLSTeam\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#12 C:\wamp\www\BKSFLSTeam\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 C:\wamp\www\BKSFLSTeam\index.php(41): require('C:\\wamp\\www\\BKS...')
+#14 {main}
+2015-05-08 11:36:29 Error: [MissingConnectionException] Database connection "Mysql" is missing, or could not be created.
+Exception Attributes: array (
+  'class' => 'Mysql',
+  'message' => 'SQLSTATE[HY000] [1045] Access denied for user \'user\'@\'localhost\' (using password: YES)',
+  'enabled' => true,
+)
+Request URL: /BKSFLSTeam/
+Stack Trace:
+#0 C:\wamp\www\BKSFLSTeam\lib\Cake\Model\Datasource\DboSource.php(260): Mysql->connect()
+#1 C:\wamp\www\BKSFLSTeam\lib\Cake\Model\ConnectionManager.php(105): DboSource->__construct(Array)
+#2 C:\wamp\www\BKSFLSTeam\lib\Cake\Model\Model.php(3617): ConnectionManager::getDataSource('default')
+#3 C:\wamp\www\BKSFLSTeam\lib\Cake\Model\Model.php(1155): Model->setDataSource('default')
+#4 C:\wamp\www\BKSFLSTeam\lib\Cake\Model\Model.php(3644): Model->setSource('posts')
+#5 C:\wamp\www\BKSFLSTeam\lib\Cake\Model\Model.php(3022): Model->getDataSource()
+#6 C:\wamp\www\BKSFLSTeam\lib\Cake\Model\Model.php(2994): Model->_readDataSource('all', Array)
+#7 C:\wamp\www\BKSFLSTeam\app\Controller\PostsController.php(9): Model->find('all')
+#8 [internal function]: PostsController->index()
+#9 C:\wamp\www\BKSFLSTeam\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(PostsController), Array)
+#10 C:\wamp\www\BKSFLSTeam\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#11 C:\wamp\www\BKSFLSTeam\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#12 C:\wamp\www\BKSFLSTeam\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 C:\wamp\www\BKSFLSTeam\index.php(41): require('C:\\wamp\\www\\BKS...')
+#14 {main}
+2015-05-08 11:37:26 Error: [MissingTableException] Table posts for model Post was not found in datasource default.
+Exception Attributes: array (
+  'table' => 'posts',
+  'class' => 'Post',
+  'ds' => 'default',
+)
+Request URL: /BKSFLSTeam/
+Stack Trace:
+#0 C:\wamp\www\BKSFLSTeam\lib\Cake\Model\Model.php(3644): Model->setSource('posts')
+#1 C:\wamp\www\BKSFLSTeam\lib\Cake\Model\Model.php(3022): Model->getDataSource()
+#2 C:\wamp\www\BKSFLSTeam\lib\Cake\Model\Model.php(2994): Model->_readDataSource('all', Array)
+#3 C:\wamp\www\BKSFLSTeam\app\Controller\PostsController.php(9): Model->find('all')
+#4 [internal function]: PostsController->index()
+#5 C:\wamp\www\BKSFLSTeam\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(PostsController), Array)
+#6 C:\wamp\www\BKSFLSTeam\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#7 C:\wamp\www\BKSFLSTeam\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#8 C:\wamp\www\BKSFLSTeam\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#9 C:\wamp\www\BKSFLSTeam\index.php(41): require('C:\\wamp\\www\\BKS...')
+#10 {main}
+2015-05-08 11:49:38 Error: [MissingTableException] Table players for model Player was not found in datasource default.
+Exception Attributes: array (
+  'table' => 'players',
+  'class' => 'Player',
+  'ds' => 'default',
+)
+Request URL: /BKSFLSTeam/players
+Stack Trace:
+#0 C:\wamp\www\BKSFLSTeam\lib\Cake\Model\Model.php(3644): Model->setSource('players')
+#1 C:\wamp\www\BKSFLSTeam\lib\Cake\Model\Model.php(3022): Model->getDataSource()
+#2 C:\wamp\www\BKSFLSTeam\lib\Cake\Model\Model.php(2994): Model->_readDataSource('all', Array)
+#3 C:\wamp\www\BKSFLSTeam\app\Controller\PlayersController.php(9): Model->find('all')
+#4 [internal function]: PlayersController->index()
+#5 C:\wamp\www\BKSFLSTeam\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(PlayersController), Array)
+#6 C:\wamp\www\BKSFLSTeam\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#7 C:\wamp\www\BKSFLSTeam\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(PlayersController), Object(CakeRequest))
+#8 C:\wamp\www\BKSFLSTeam\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#9 {main}
+2015-05-08 11:49:41 Error: [MissingTableException] Table results for model result was not found in datasource default.
+Exception Attributes: array (
+  'table' => 'results',
+  'class' => 'result',
+  'ds' => 'default',
+)
+Request URL: /BKSFLSTeam/results
+Stack Trace:
+#0 C:\wamp\www\BKSFLSTeam\lib\Cake\Model\Model.php(3644): Model->setSource('results')
+#1 C:\wamp\www\BKSFLSTeam\lib\Cake\Model\Model.php(3022): Model->getDataSource()
+#2 C:\wamp\www\BKSFLSTeam\lib\Cake\Model\Model.php(2994): Model->_readDataSource('all', Array)
+#3 C:\wamp\www\BKSFLSTeam\app\Controller\ResultsController.php(12): Model->find('all')
+#4 [internal function]: resultsController->index()
+#5 C:\wamp\www\BKSFLSTeam\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(resultsController), Array)
+#6 C:\wamp\www\BKSFLSTeam\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#7 C:\wamp\www\BKSFLSTeam\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(resultsController), Object(CakeRequest))
+#8 C:\wamp\www\BKSFLSTeam\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#9 {main}
+2015-05-08 11:49:47 Error: [MissingControllerException] Controller class ContactController could not be found.
+Exception Attributes: array (
+  'class' => 'ContactController',
+  'plugin' => NULL,
+)
+Request URL: /BKSFLSTeam/contact
+Stack Trace:
+#0 C:\wamp\www\BKSFLSTeam\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-05-08 11:55:43 Error: [MissingTableException] Table results for model result was not found in datasource default.
+Exception Attributes: array (
+  'table' => 'results',
+  'class' => 'result',
+  'ds' => 'default',
+)
+Request URL: /BKSFLSTeam/results
+Stack Trace:
+#0 C:\wamp\www\BKSFLSTeam\lib\Cake\Model\Model.php(3644): Model->setSource('results')
+#1 C:\wamp\www\BKSFLSTeam\lib\Cake\Model\Model.php(3022): Model->getDataSource()
+#2 C:\wamp\www\BKSFLSTeam\lib\Cake\Model\Model.php(2994): Model->_readDataSource('all', Array)
+#3 C:\wamp\www\BKSFLSTeam\app\Controller\ResultsController.php(12): Model->find('all')
+#4 [internal function]: resultsController->index()
+#5 C:\wamp\www\BKSFLSTeam\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(resultsController), Array)
+#6 C:\wamp\www\BKSFLSTeam\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#7 C:\wamp\www\BKSFLSTeam\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(resultsController), Object(CakeRequest))
+#8 C:\wamp\www\BKSFLSTeam\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#9 {main}
+2015-05-08 11:59:31 Error: [MissingControllerException] Controller class ContactController could not be found.
+Exception Attributes: array (
+  'class' => 'ContactController',
+  'plugin' => NULL,
+)
+Request URL: /BKSFLSTeam/contact
+Stack Trace:
+#0 C:\wamp\www\BKSFLSTeam\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-05-08 11:59:40 Error: [MissingControllerException] Controller class ContactController could not be found.
+Exception Attributes: array (
+  'class' => 'ContactController',
+  'plugin' => NULL,
+)
+Request URL: /BKSFLSTeam/contact
+Stack Trace:
+#0 C:\wamp\www\BKSFLSTeam\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-05-08 12:01:35 Error: [MissingControllerException] Controller class ContactController could not be found.
+Exception Attributes: array (
+  'class' => 'ContactController',
+  'plugin' => NULL,
+)
+Request URL: /BKSFLSTeam/contact
+Stack Trace:
+#0 C:\wamp\www\BKSFLSTeam\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-05-08 12:02:22 Error: [MissingControllerException] Controller class ContactController could not be found.
+Exception Attributes: array (
+  'class' => 'ContactController',
+  'plugin' => NULL,
+)
+Request URL: /BKSFLSTeam/contact
+Stack Trace:
+#0 C:\wamp\www\BKSFLSTeam\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-05-08 12:03:47 Error: [MissingActionException] Action ContactController::index() could not be found.
+Exception Attributes: array (
+  'controller' => 'ContactController',
+  'action' => 'index',
+)
+Request URL: /BKSFLSTeam/contact
+Stack Trace:
+#0 C:\wamp\www\BKSFLSTeam\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\BKSFLSTeam\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ContactController), Object(CakeRequest))
+#2 C:\wamp\www\BKSFLSTeam\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-05-08 12:04:20 Error: [MissingViewException] View file "Contact\index.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Contact\\index.ctp',
+)
+Request URL: /BKSFLSTeam/contact
+Stack Trace:
+#0 C:\wamp\www\BKSFLSTeam\lib\Cake\View\View.php(470): View->_getViewFileName(NULL)
+#1 C:\wamp\www\BKSFLSTeam\lib\Cake\Controller\Controller.php(960): View->render(NULL, NULL)
+#2 C:\wamp\www\BKSFLSTeam\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#3 C:\wamp\www\BKSFLSTeam\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ContactController), Object(CakeRequest))
+#4 C:\wamp\www\BKSFLSTeam\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-05-08 12:05:52 Error: [MissingTableException] Table seasons for model season was not found in datasource default.
+Exception Attributes: array (
+  'table' => 'seasons',
+  'class' => 'season',
+  'ds' => 'default',
+)
+Request URL: /BKSFLSTeam/seasons
+Stack Trace:
+#0 C:\wamp\www\BKSFLSTeam\lib\Cake\Model\Model.php(3644): Model->setSource('seasons')
+#1 C:\wamp\www\BKSFLSTeam\lib\Cake\Model\Model.php(3022): Model->getDataSource()
+#2 C:\wamp\www\BKSFLSTeam\lib\Cake\Model\Model.php(2994): Model->_readDataSource('all', Array)
+#3 C:\wamp\www\BKSFLSTeam\app\Controller\SeasonsController.php(9): Model->find('all')
+#4 [internal function]: seasonsController->index()
+#5 C:\wamp\www\BKSFLSTeam\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(seasonsController), Array)
+#6 C:\wamp\www\BKSFLSTeam\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#7 C:\wamp\www\BKSFLSTeam\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(seasonsController), Object(CakeRequest))
+#8 C:\wamp\www\BKSFLSTeam\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#9 {main}
+2015-05-08 12:06:02 Error: [MissingTableException] Table seasons for model season was not found in datasource default.
+Exception Attributes: array (
+  'table' => 'seasons',
+  'class' => 'season',
+  'ds' => 'default',
+)
+Request URL: /BKSFLSTeam/seasons
+Stack Trace:
+#0 C:\wamp\www\BKSFLSTeam\lib\Cake\Model\Model.php(3644): Model->setSource('seasons')
+#1 C:\wamp\www\BKSFLSTeam\lib\Cake\Model\Model.php(3022): Model->getDataSource()
+#2 C:\wamp\www\BKSFLSTeam\lib\Cake\Model\Model.php(2994): Model->_readDataSource('all', Array)
+#3 C:\wamp\www\BKSFLSTeam\app\Controller\SeasonsController.php(9): Model->find('all')
+#4 [internal function]: seasonsController->index()
+#5 C:\wamp\www\BKSFLSTeam\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(seasonsController), Array)
+#6 C:\wamp\www\BKSFLSTeam\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#7 C:\wamp\www\BKSFLSTeam\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(seasonsController), Object(CakeRequest))
+#8 C:\wamp\www\BKSFLSTeam\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#9 {main}
+2015-05-08 12:06:10 Error: [MissingTableException] Table seasons for model season was not found in datasource default.
+Exception Attributes: array (
+  'table' => 'seasons',
+  'class' => 'season',
+  'ds' => 'default',
+)
+Request URL: /BKSFLSTeam/seasons
+Stack Trace:
+#0 C:\wamp\www\BKSFLSTeam\lib\Cake\Model\Model.php(3644): Model->setSource('seasons')
+#1 C:\wamp\www\BKSFLSTeam\lib\Cake\Model\Model.php(3022): Model->getDataSource()
+#2 C:\wamp\www\BKSFLSTeam\lib\Cake\Model\Model.php(2994): Model->_readDataSource('all', Array)
+#3 C:\wamp\www\BKSFLSTeam\app\Controller\SeasonsController.php(9): Model->find('all')
+#4 [internal function]: seasonsController->index()
+#5 C:\wamp\www\BKSFLSTeam\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(seasonsController), Array)
+#6 C:\wamp\www\BKSFLSTeam\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#7 C:\wamp\www\BKSFLSTeam\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(seasonsController), Object(CakeRequest))
+#8 C:\wamp\www\BKSFLSTeam\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#9 {main}
+2015-05-08 13:01:26 Error: [MissingTableException] Table seasons for model season was not found in datasource default.
+Exception Attributes: array (
+  'table' => 'seasons',
+  'class' => 'season',
+  'ds' => 'default',
+)
+Request URL: /BKSFLSTeam/seasons
+Stack Trace:
+#0 C:\wamp\www\BKSFLSTeam\lib\Cake\Model\Model.php(3644): Model->setSource('seasons')
+#1 C:\wamp\www\BKSFLSTeam\lib\Cake\Model\Model.php(3022): Model->getDataSource()
+#2 C:\wamp\www\BKSFLSTeam\lib\Cake\Model\Model.php(2994): Model->_readDataSource('all', Array)
+#3 C:\wamp\www\BKSFLSTeam\app\Controller\SeasonsController.php(9): Model->find('all')
+#4 [internal function]: seasonsController->index()
+#5 C:\wamp\www\BKSFLSTeam\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(seasonsController), Array)
+#6 C:\wamp\www\BKSFLSTeam\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#7 C:\wamp\www\BKSFLSTeam\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(seasonsController), Object(CakeRequest))
+#8 C:\wamp\www\BKSFLSTeam\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#9 {main}
+2015-05-08 13:09:56 Error: Fatal Error (1): Call to a member function where() on a non-object in [C:\wamp\www\BKSFLSTeam\app\Controller\ResultsController.php, line 12]
+2015-05-08 13:09:56 Error: [FatalErrorException] Call to a member function where() on a non-object
+Request URL: /BKSFLSTeam/results
+Stack Trace:
+#0 C:\wamp\www\BKSFLSTeam\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\\wamp\\www\\BKS...', 12)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\\wamp\\www\\BKS...', 12, Array)
+#2 C:\wamp\www\BKSFLSTeam\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\\wamp\\www\\BKS...', 12, Array)
+#3 C:\wamp\www\BKSFLSTeam\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-05-08 13:11:20 Error: Fatal Error (1): Call to a member function where() on a non-object in [C:\wamp\www\BKSFLSTeam\app\Controller\ResultsController.php, line 12]
+2015-05-08 13:11:20 Error: [FatalErrorException] Call to a member function where() on a non-object
+Request URL: /BKSFLSTeam/results
+Stack Trace:
+#0 C:\wamp\www\BKSFLSTeam\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\\wamp\\www\\BKS...', 12)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\\wamp\\www\\BKS...', 12, Array)
+#2 C:\wamp\www\BKSFLSTeam\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\\wamp\\www\\BKS...', 12, Array)
+#3 C:\wamp\www\BKSFLSTeam\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-05-08 13:11:21 Error: Fatal Error (1): Call to a member function where() on a non-object in [C:\wamp\www\BKSFLSTeam\app\Controller\ResultsController.php, line 12]
+2015-05-08 13:11:21 Error: [FatalErrorException] Call to a member function where() on a non-object
+Request URL: /BKSFLSTeam/results
+Stack Trace:
+#0 C:\wamp\www\BKSFLSTeam\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\\wamp\\www\\BKS...', 12)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\\wamp\\www\\BKS...', 12, Array)
+#2 C:\wamp\www\BKSFLSTeam\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\\wamp\\www\\BKS...', 12, Array)
+#3 C:\wamp\www\BKSFLSTeam\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-05-08 13:12:58 Error: Fatal Error (4): syntax error, unexpected ';' in [C:\wamp\www\BKSFLSTeam\app\Controller\ResultsController.php, line 12]
+2015-05-08 13:12:58 Error: [FatalErrorException] syntax error, unexpected ';'
+Request URL: /BKSFLSTeam/results
+Stack Trace:
+#0 C:\wamp\www\BKSFLSTeam\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\wamp\\www\\BKS...', 12)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\wamp\\www\\BKS...', 12, Array)
+#2 C:\wamp\www\BKSFLSTeam\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\wamp\\www\\BKS...', 12, Array)
+#3 C:\wamp\www\BKSFLSTeam\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-05-08 13:17:59 Error: [MissingTableException] Table seasons for model season was not found in datasource default.
+Exception Attributes: array (
+  'table' => 'seasons',
+  'class' => 'season',
+  'ds' => 'default',
+)
+Request URL: /BKSFLSTeam/seasons
+Stack Trace:
+#0 C:\wamp\www\BKSFLSTeam\lib\Cake\Model\Model.php(3644): Model->setSource('seasons')
+#1 C:\wamp\www\BKSFLSTeam\lib\Cake\Model\Model.php(3022): Model->getDataSource()
+#2 C:\wamp\www\BKSFLSTeam\lib\Cake\Model\Model.php(2994): Model->_readDataSource('all', Array)
+#3 C:\wamp\www\BKSFLSTeam\app\Controller\SeasonsController.php(9): Model->find('all')
+#4 [internal function]: seasonsController->index()
+#5 C:\wamp\www\BKSFLSTeam\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(seasonsController), Array)
+#6 C:\wamp\www\BKSFLSTeam\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#7 C:\wamp\www\BKSFLSTeam\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(seasonsController), Object(CakeRequest))
+#8 C:\wamp\www\BKSFLSTeam\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#9 {main}
+2015-05-08 14:13:56 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /BKSFLSTeam/css/images/bg.gif
+Stack Trace:
+#0 C:\wamp\www\BKSFLSTeam\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-05-08 14:42:04 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /BKSFLSTeam/img/cake.power.gif
+Stack Trace:
+#0 C:\wamp\www\BKSFLSTeam\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-05-08 14:47:33 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /BKSFLSTeam/img/bg.gif
+Stack Trace:
+#0 C:\wamp\www\BKSFLSTeam\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-05-08 14:47:44 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /BKSFLSTeam/img/bg.gif
+Stack Trace:
+#0 C:\wamp\www\BKSFLSTeam\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-05-08 14:48:11 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /BKSFLSTeam/img/bg.gif
+Stack Trace:
+#0 C:\wamp\www\BKSFLSTeam\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
