@@ -1834,3 +1834,12 @@ Request URL: /BKSFLSTeam/localhost/BKSFLSTeam/posts
 Stack Trace:
 #0 C:\wamp\www\BKSFLSTeam\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #1 {main}
+2015-05-20 00:37:57 Error: [MethodNotAllowedException] Method Not Allowed
+Request URL: /BKSFLSTeam/players/delete/5
+Stack Trace:
+#0 [internal function]: PlayersController->delete('5')
+#1 C:\wamp\www\BKSFLSTeam\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(PlayersController), Array)
+#2 C:\wamp\www\BKSFLSTeam\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 C:\wamp\www\BKSFLSTeam\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(PlayersController), Object(CakeRequest))
+#4 C:\wamp\www\BKSFLSTeam\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}

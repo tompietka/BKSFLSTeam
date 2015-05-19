@@ -13,7 +13,7 @@ class UsersController extends AppController
         if ($this->Auth->login()) {
             return $this->redirect($this->Auth->redirectUrl());
         }
-        $this->Session->setFlash(__('Invalid username or password, try again'));
+        $this->Session->setFlash(__('Nieprawidłowy login lub hasło. Spróbuj ponownie.'));
     }
 }
 
@@ -38,11 +38,11 @@ public function logout() {
         if ($this->request->is('post')) {
             $this->User->create();
             if ($this->User->save($this->request->data)) {
-                $this->Session->setFlash(__('The user has been saved'));
+                $this->Session->setFlash(__('Użytkownik zapisany'));
                 return $this->redirect(array('action' => 'index'));
             }
             $this->Session->setFlash(
-                __('The user could not be saved. Please, try again.')
+                __('Użytkownik nie został zapisany. Spróbuj ponownie.')
             );
         }
     }
@@ -54,11 +54,11 @@ public function logout() {
         }
         if ($this->request->is('post') || $this->request->is('put')) {
             if ($this->User->save($this->request->data)) {
-                $this->Session->setFlash(__('The user has been saved'));
+                $this->Session->setFlash(__('Użytkownik zapisany'));
                 return $this->redirect(array('action' => 'index'));
             }
             $this->Session->setFlash(
-                __('The user could not be saved. Please, try again.')
+                __('Użytkownik nie został zapisany. Spróbuj ponownie.')
             );
         } else {
             $this->request->data = $this->User->read(null, $id);
@@ -77,10 +77,10 @@ public function logout() {
             throw new NotFoundException(__('Invalid user'));
         }
         if ($this->User->delete()) {
-            $this->Session->setFlash(__('User deleted'));
+            $this->Session->setFlash(__('Użytkownik usunięty'));
             return $this->redirect(array('action' => 'index'));
         }
-        $this->Session->setFlash(__('User was not deleted'));
+        $this->Session->setFlash(__('Użytkownik nie został usunięty'));
         return $this->redirect(array('action' => 'index'));
     }
 
