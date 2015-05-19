@@ -9,10 +9,10 @@ class resultsController extends AppController
 	{
 	require 'SeasonsController.php';
 	$seasons = new SeasonsController();
-        $this->set('results', $this->result->find('all', array('conditions' => array('Result.season' => '1'))));
+        $this->set('results', $this->result->find('all'));
 
     }
-	
+
   
 	public function add() 
 	{

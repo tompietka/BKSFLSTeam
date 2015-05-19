@@ -1,4 +1,4 @@
-﻿<body>
+<body>
   <div id="content">
 
 <table class="menu">
@@ -11,16 +11,6 @@
 </table>
 
 <table class="content1">
-     <tr>
-        <th><?php
-                $seasons = array('1', '2', '3');
-
-                echo $this->Form->input('Sezon', array('options' => $seasons, 'empty' => '(Sezon bieżący)')); 
-
-                echo $this->Form->submit();
-            ?>      
-        </th>
-    </tr>
     <tr>
         <th>Statystyki bieżącego sezonu znajdują się na oficjalnej stronie Ligi FLS. Zespół BKS obecnie występuje w <a href="http://liga-fls.pl/home/index.php?option=com_joomleague&view=resultsranking&p=87&division=&r=&Itemid=567" target="_blank">lidze D1</a>
         </th>

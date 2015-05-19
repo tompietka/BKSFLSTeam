@@ -380,3 +380,571 @@ Request URL: /BKSFLSTeam/img/bg.gif
 Stack Trace:
 #0 C:\wamp\www\BKSFLSTeam\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #1 {main}
+2015-05-19 19:19:36 Error: Fatal Error (4): syntax error, unexpected '&', expecting variable (T_VARIABLE) in [C:\wamp\www\BKSFLSTeam\app\Controller\ResultsController.php, line 8]
+2015-05-19 19:19:36 Error: [FatalErrorException] syntax error, unexpected '&', expecting variable (T_VARIABLE)
+Request URL: /BKSFLSTeam/results
+Stack Trace:
+#0 C:\wamp\www\BKSFLSTeam\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\wamp\\www\\BKS...', 8)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\wamp\\www\\BKS...', 8, Array)
+#2 C:\wamp\www\BKSFLSTeam\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\wamp\\www\\BKS...', 8, Array)
+#3 C:\wamp\www\BKSFLSTeam\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-05-19 19:19:57 Error: Fatal Error (4): syntax error, unexpected '$this' (T_VARIABLE) in [C:\wamp\www\BKSFLSTeam\app\Controller\ResultsController.php, line 8]
+2015-05-19 19:19:57 Error: [FatalErrorException] syntax error, unexpected '$this' (T_VARIABLE)
+Request URL: /BKSFLSTeam/results
+Stack Trace:
+#0 C:\wamp\www\BKSFLSTeam\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\wamp\\www\\BKS...', 8)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\wamp\\www\\BKS...', 8, Array)
+#2 C:\wamp\www\BKSFLSTeam\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\wamp\\www\\BKS...', 8, Array)
+#3 C:\wamp\www\BKSFLSTeam\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-05-19 19:21:19 Error: Fatal Error (4): syntax error, unexpected '->' (T_OBJECT_OPERATOR), expecting ',' or ';' in [C:\wamp\www\BKSFLSTeam\app\Controller\ResultsController.php, line 8]
+2015-05-19 19:21:19 Error: [FatalErrorException] syntax error, unexpected '->' (T_OBJECT_OPERATOR), expecting ',' or ';'
+Request URL: /BKSFLSTeam/results
+Stack Trace:
+#0 C:\wamp\www\BKSFLSTeam\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\wamp\\www\\BKS...', 8)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\wamp\\www\\BKS...', 8, Array)
+#2 C:\wamp\www\BKSFLSTeam\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\wamp\\www\\BKS...', 8, Array)
+#3 C:\wamp\www\BKSFLSTeam\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-05-19 19:21:22 Error: Fatal Error (4): syntax error, unexpected '->' (T_OBJECT_OPERATOR), expecting ',' or ';' in [C:\wamp\www\BKSFLSTeam\app\Controller\ResultsController.php, line 8]
+2015-05-19 19:21:22 Error: [FatalErrorException] syntax error, unexpected '->' (T_OBJECT_OPERATOR), expecting ',' or ';'
+Request URL: /BKSFLSTeam/results
+Stack Trace:
+#0 C:\wamp\www\BKSFLSTeam\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\wamp\\www\\BKS...', 8)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\wamp\\www\\BKS...', 8, Array)
+#2 C:\wamp\www\BKSFLSTeam\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\wamp\\www\\BKS...', 8, Array)
+#3 C:\wamp\www\BKSFLSTeam\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-05-19 19:27:19 Error: Fatal Error (4): syntax error, unexpected '->' (T_OBJECT_OPERATOR), expecting ',' or ';' in [C:\wamp\www\BKSFLSTeam\app\Controller\ResultsController.php, line 8]
+2015-05-19 19:27:19 Error: [FatalErrorException] syntax error, unexpected '->' (T_OBJECT_OPERATOR), expecting ',' or ';'
+Request URL: /BKSFLSTeam/results
+Stack Trace:
+#0 C:\wamp\www\BKSFLSTeam\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\wamp\\www\\BKS...', 8)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\wamp\\www\\BKS...', 8, Array)
+#2 C:\wamp\www\BKSFLSTeam\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\wamp\\www\\BKS...', 8, Array)
+#3 C:\wamp\www\BKSFLSTeam\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-05-19 19:30:06 Error: Fatal Error (4): syntax error, unexpected 'int' (T_STRING), expecting variable (T_VARIABLE) in [C:\wamp\www\BKSFLSTeam\app\Controller\ResultsController.php, line 8]
+2015-05-19 19:30:06 Error: [FatalErrorException] syntax error, unexpected 'int' (T_STRING), expecting variable (T_VARIABLE)
+Request URL: /BKSFLSTeam/results
+Stack Trace:
+#0 C:\wamp\www\BKSFLSTeam\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\wamp\\www\\BKS...', 8)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\wamp\\www\\BKS...', 8, Array)
+#2 C:\wamp\www\BKSFLSTeam\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\wamp\\www\\BKS...', 8, Array)
+#3 C:\wamp\www\BKSFLSTeam\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-05-19 19:33:33 Error: Fatal Error (4): syntax error, unexpected 'var' (T_VAR), expecting '{' in [C:\wamp\www\BKSFLSTeam\app\Controller\ResultsController.php, line 5]
+2015-05-19 19:33:33 Error: [FatalErrorException] syntax error, unexpected 'var' (T_VAR), expecting '{'
+Request URL: /BKSFLSTeam/results
+Stack Trace:
+#0 C:\wamp\www\BKSFLSTeam\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\wamp\\www\\BKS...', 5)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\wamp\\www\\BKS...', 5, Array)
+#2 C:\wamp\www\BKSFLSTeam\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\wamp\\www\\BKS...', 5, Array)
+#3 C:\wamp\www\BKSFLSTeam\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-05-19 19:33:59 Error: Fatal Error (4): syntax error, unexpected 'var' (T_VAR), expecting '{' in [C:\wamp\www\BKSFLSTeam\app\Controller\ResultsController.php, line 5]
+2015-05-19 19:33:59 Error: [FatalErrorException] syntax error, unexpected 'var' (T_VAR), expecting '{'
+Request URL: /BKSFLSTeam/results
+Stack Trace:
+#0 C:\wamp\www\BKSFLSTeam\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\wamp\\www\\BKS...', 5)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\wamp\\www\\BKS...', 5, Array)
+#2 C:\wamp\www\BKSFLSTeam\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\wamp\\www\\BKS...', 5, Array)
+#3 C:\wamp\www\BKSFLSTeam\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-05-19 19:39:10 Error: Fatal Error (4): syntax error, unexpected '1' (T_LNUMBER), expecting identifier (T_STRING) or variable (T_VARIABLE) or '{' or '$' in [C:\wamp\www\BKSFLSTeam\app\Controller\ResultsController.php, line 12]
+2015-05-19 19:39:10 Error: [FatalErrorException] syntax error, unexpected '1' (T_LNUMBER), expecting identifier (T_STRING) or variable (T_VARIABLE) or '{' or '$'
+Request URL: /BKSFLSTeam/results
+Stack Trace:
+#0 C:\wamp\www\BKSFLSTeam\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\wamp\\www\\BKS...', 12)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\wamp\\www\\BKS...', 12, Array)
+#2 C:\wamp\www\BKSFLSTeam\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\wamp\\www\\BKS...', 12, Array)
+#3 C:\wamp\www\BKSFLSTeam\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-05-19 19:39:32 Error: Fatal Error (4): syntax error, unexpected '1' (T_LNUMBER), expecting identifier (T_STRING) or variable (T_VARIABLE) or '{' or '$' in [C:\wamp\www\BKSFLSTeam\app\Controller\ResultsController.php, line 12]
+2015-05-19 19:39:32 Error: [FatalErrorException] syntax error, unexpected '1' (T_LNUMBER), expecting identifier (T_STRING) or variable (T_VARIABLE) or '{' or '$'
+Request URL: /BKSFLSTeam/results
+Stack Trace:
+#0 C:\wamp\www\BKSFLSTeam\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\wamp\\www\\BKS...', 12)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\wamp\\www\\BKS...', 12, Array)
+#2 C:\wamp\www\BKSFLSTeam\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\wamp\\www\\BKS...', 12, Array)
+#3 C:\wamp\www\BKSFLSTeam\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-05-19 19:41:01 Error: Fatal Error (4): syntax error, unexpected ''1'' (T_CONSTANT_ENCAPSED_STRING), expecting identifier (T_STRING) or variable (T_VARIABLE) or '{' or '$' in [C:\wamp\www\BKSFLSTeam\app\Controller\ResultsController.php, line 12]
+2015-05-19 19:41:01 Error: [FatalErrorException] syntax error, unexpected ''1'' (T_CONSTANT_ENCAPSED_STRING), expecting identifier (T_STRING) or variable (T_VARIABLE) or '{' or '$'
+Request URL: /BKSFLSTeam/results
+Stack Trace:
+#0 C:\wamp\www\BKSFLSTeam\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\wamp\\www\\BKS...', 12)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\wamp\\www\\BKS...', 12, Array)
+#2 C:\wamp\www\BKSFLSTeam\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\wamp\\www\\BKS...', 12, Array)
+#3 C:\wamp\www\BKSFLSTeam\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-05-19 19:41:20 Error: Fatal Error (4): syntax error, unexpected ''selected_value'' (T_CONSTANT_ENCAPSED_STRING), expecting identifier (T_STRING) or variable (T_VARIABLE) or '{' or '$' in [C:\wamp\www\BKSFLSTeam\app\Controller\ResultsController.php, line 12]
+2015-05-19 19:41:20 Error: [FatalErrorException] syntax error, unexpected ''selected_value'' (T_CONSTANT_ENCAPSED_STRING), expecting identifier (T_STRING) or variable (T_VARIABLE) or '{' or '$'
+Request URL: /BKSFLSTeam/results
+Stack Trace:
+#0 C:\wamp\www\BKSFLSTeam\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\wamp\\www\\BKS...', 12)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\wamp\\www\\BKS...', 12, Array)
+#2 C:\wamp\www\BKSFLSTeam\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\wamp\\www\\BKS...', 12, Array)
+#3 C:\wamp\www\BKSFLSTeam\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-05-19 19:42:02 Error: Fatal Error (4): syntax error, unexpected ''selected_value'' (T_CONSTANT_ENCAPSED_STRING), expecting identifier (T_STRING) or variable (T_VARIABLE) or '{' or '$' in [C:\wamp\www\BKSFLSTeam\app\Controller\ResultsController.php, line 12]
+2015-05-19 19:42:02 Error: [FatalErrorException] syntax error, unexpected ''selected_value'' (T_CONSTANT_ENCAPSED_STRING), expecting identifier (T_STRING) or variable (T_VARIABLE) or '{' or '$'
+Request URL: /BKSFLSTeam/results
+Stack Trace:
+#0 C:\wamp\www\BKSFLSTeam\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\wamp\\www\\BKS...', 12)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\wamp\\www\\BKS...', 12, Array)
+#2 C:\wamp\www\BKSFLSTeam\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\wamp\\www\\BKS...', 12, Array)
+#3 C:\wamp\www\BKSFLSTeam\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-05-19 19:42:04 Error: Fatal Error (4): syntax error, unexpected ''selected_value'' (T_CONSTANT_ENCAPSED_STRING), expecting identifier (T_STRING) or variable (T_VARIABLE) or '{' or '$' in [C:\wamp\www\BKSFLSTeam\app\Controller\ResultsController.php, line 12]
+2015-05-19 19:42:04 Error: [FatalErrorException] syntax error, unexpected ''selected_value'' (T_CONSTANT_ENCAPSED_STRING), expecting identifier (T_STRING) or variable (T_VARIABLE) or '{' or '$'
+Request URL: /BKSFLSTeam/results
+Stack Trace:
+#0 C:\wamp\www\BKSFLSTeam\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\wamp\\www\\BKS...', 12)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\wamp\\www\\BKS...', 12, Array)
+#2 C:\wamp\www\BKSFLSTeam\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\wamp\\www\\BKS...', 12, Array)
+#3 C:\wamp\www\BKSFLSTeam\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-05-19 19:42:16 Error: Fatal Error (4): syntax error, unexpected ''selected_value'' (T_CONSTANT_ENCAPSED_STRING), expecting identifier (T_STRING) or variable (T_VARIABLE) or '{' or '$' in [C:\wamp\www\BKSFLSTeam\app\Controller\ResultsController.php, line 12]
+2015-05-19 19:42:16 Error: [FatalErrorException] syntax error, unexpected ''selected_value'' (T_CONSTANT_ENCAPSED_STRING), expecting identifier (T_STRING) or variable (T_VARIABLE) or '{' or '$'
+Request URL: /BKSFLSTeam/results
+Stack Trace:
+#0 C:\wamp\www\BKSFLSTeam\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\wamp\\www\\BKS...', 12)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\wamp\\www\\BKS...', 12, Array)
+#2 C:\wamp\www\BKSFLSTeam\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\wamp\\www\\BKS...', 12, Array)
+#3 C:\wamp\www\BKSFLSTeam\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-05-19 19:42:50 Error: Fatal Error (4): syntax error, unexpected ''selected_value'' (T_CONSTANT_ENCAPSED_STRING), expecting identifier (T_STRING) or variable (T_VARIABLE) or '{' or '$' in [C:\wamp\www\BKSFLSTeam\app\Controller\ResultsController.php, line 12]
+2015-05-19 19:42:50 Error: [FatalErrorException] syntax error, unexpected ''selected_value'' (T_CONSTANT_ENCAPSED_STRING), expecting identifier (T_STRING) or variable (T_VARIABLE) or '{' or '$'
+Request URL: /BKSFLSTeam/results
+Stack Trace:
+#0 C:\wamp\www\BKSFLSTeam\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\wamp\\www\\BKS...', 12)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\wamp\\www\\BKS...', 12, Array)
+#2 C:\wamp\www\BKSFLSTeam\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\wamp\\www\\BKS...', 12, Array)
+#3 C:\wamp\www\BKSFLSTeam\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-05-19 19:42:53 Error: Fatal Error (4): syntax error, unexpected ''selected_value'' (T_CONSTANT_ENCAPSED_STRING), expecting identifier (T_STRING) or variable (T_VARIABLE) or '{' or '$' in [C:\wamp\www\BKSFLSTeam\app\Controller\ResultsController.php, line 12]
+2015-05-19 19:42:53 Error: [FatalErrorException] syntax error, unexpected ''selected_value'' (T_CONSTANT_ENCAPSED_STRING), expecting identifier (T_STRING) or variable (T_VARIABLE) or '{' or '$'
+Request URL: /BKSFLSTeam/results
+Stack Trace:
+#0 C:\wamp\www\BKSFLSTeam\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\wamp\\www\\BKS...', 12)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\wamp\\www\\BKS...', 12, Array)
+#2 C:\wamp\www\BKSFLSTeam\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\wamp\\www\\BKS...', 12, Array)
+#3 C:\wamp\www\BKSFLSTeam\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-05-19 19:57:45 Error: [MissingHelperException] Helper class selected_valueHelper could not be found.
+Exception Attributes: array (
+  'class' => 'selected_valueHelper',
+  'plugin' => false,
+)
+Request URL: /BKSFLSTeam/results
+Stack Trace:
+#0 C:\wamp\www\BKSFLSTeam\lib\Cake\View\HelperCollection.php(63): HelperCollection->load('selected_value')
+#1 C:\wamp\www\BKSFLSTeam\lib\Cake\View\View.php(848): HelperCollection->__isset('selected_value')
+#2 C:\wamp\www\BKSFLSTeam\app\View\Results\index.ctp(24): View->__get('selected_value')
+#3 C:\wamp\www\BKSFLSTeam\lib\Cake\View\View.php(961): include('C:\\wamp\\www\\BKS...')
+#4 C:\wamp\www\BKSFLSTeam\lib\Cake\View\View.php(923): View->_evaluate('C:\\wamp\\www\\BKS...', Array)
+#5 C:\wamp\www\BKSFLSTeam\lib\Cake\View\View.php(473): View->_render('C:\\wamp\\www\\BKS...')
+#6 C:\wamp\www\BKSFLSTeam\lib\Cake\Controller\Controller.php(960): View->render(NULL, NULL)
+#7 C:\wamp\www\BKSFLSTeam\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#8 C:\wamp\www\BKSFLSTeam\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(resultsController), Object(CakeRequest))
+#9 C:\wamp\www\BKSFLSTeam\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2015-05-19 19:58:12 Error: Fatal Error (4): syntax error, unexpected 'var' (T_VAR) in [C:\wamp\www\BKSFLSTeam\app\View\Results\index.ctp, line 24]
+2015-05-19 19:58:12 Error: [FatalErrorException] syntax error, unexpected 'var' (T_VAR)
+Request URL: /BKSFLSTeam/results
+Stack Trace:
+#0 C:\wamp\www\BKSFLSTeam\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\wamp\\www\\BKS...', 24)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\wamp\\www\\BKS...', 24, Array)
+#2 C:\wamp\www\BKSFLSTeam\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\wamp\\www\\BKS...', 24, Array)
+#3 C:\wamp\www\BKSFLSTeam\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-05-19 19:58:35 Error: Fatal Error (1): Call to a member function set() on a non-object in [C:\wamp\www\BKSFLSTeam\app\View\Results\index.ctp, line 24]
+2015-05-19 19:58:35 Error: [FatalErrorException] Call to a member function set() on a non-object
+Request URL: /BKSFLSTeam/results
+Stack Trace:
+#0 C:\wamp\www\BKSFLSTeam\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\\wamp\\www\\BKS...', 24)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\\wamp\\www\\BKS...', 24, Array)
+#2 C:\wamp\www\BKSFLSTeam\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\\wamp\\www\\BKS...', 24, Array)
+#3 C:\wamp\www\BKSFLSTeam\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-05-19 19:58:36 Error: Fatal Error (1): Call to a member function set() on a non-object in [C:\wamp\www\BKSFLSTeam\app\View\Results\index.ctp, line 24]
+2015-05-19 19:58:36 Error: [FatalErrorException] Call to a member function set() on a non-object
+Request URL: /BKSFLSTeam/results
+Stack Trace:
+#0 C:\wamp\www\BKSFLSTeam\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\\wamp\\www\\BKS...', 24)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\\wamp\\www\\BKS...', 24, Array)
+#2 C:\wamp\www\BKSFLSTeam\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\\wamp\\www\\BKS...', 24, Array)
+#3 C:\wamp\www\BKSFLSTeam\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-05-19 19:58:37 Error: Fatal Error (1): Call to a member function set() on a non-object in [C:\wamp\www\BKSFLSTeam\app\View\Results\index.ctp, line 24]
+2015-05-19 19:58:37 Error: [FatalErrorException] Call to a member function set() on a non-object
+Request URL: /BKSFLSTeam/results
+Stack Trace:
+#0 C:\wamp\www\BKSFLSTeam\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\\wamp\\www\\BKS...', 24)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\\wamp\\www\\BKS...', 24, Array)
+#2 C:\wamp\www\BKSFLSTeam\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\\wamp\\www\\BKS...', 24, Array)
+#3 C:\wamp\www\BKSFLSTeam\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-05-19 19:58:38 Error: Fatal Error (1): Call to a member function set() on a non-object in [C:\wamp\www\BKSFLSTeam\app\View\Results\index.ctp, line 24]
+2015-05-19 19:58:38 Error: [FatalErrorException] Call to a member function set() on a non-object
+Request URL: /BKSFLSTeam/results
+Stack Trace:
+#0 C:\wamp\www\BKSFLSTeam\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\\wamp\\www\\BKS...', 24)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\\wamp\\www\\BKS...', 24, Array)
+#2 C:\wamp\www\BKSFLSTeam\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\\wamp\\www\\BKS...', 24, Array)
+#3 C:\wamp\www\BKSFLSTeam\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-05-19 19:59:20 Error: Fatal Error (1): Call to a member function set() on a non-object in [C:\wamp\www\BKSFLSTeam\app\View\Results\index.ctp, line 24]
+2015-05-19 19:59:20 Error: [FatalErrorException] Call to a member function set() on a non-object
+Request URL: /BKSFLSTeam/results
+Stack Trace:
+#0 C:\wamp\www\BKSFLSTeam\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\\wamp\\www\\BKS...', 24)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\\wamp\\www\\BKS...', 24, Array)
+#2 C:\wamp\www\BKSFLSTeam\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\\wamp\\www\\BKS...', 24, Array)
+#3 C:\wamp\www\BKSFLSTeam\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-05-19 19:59:55 Error: Fatal Error (1): Call to a member function set() on a non-object in [C:\wamp\www\BKSFLSTeam\app\View\Results\index.ctp, line 24]
+2015-05-19 19:59:55 Error: [FatalErrorException] Call to a member function set() on a non-object
+Request URL: /BKSFLSTeam/results
+Stack Trace:
+#0 C:\wamp\www\BKSFLSTeam\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\\wamp\\www\\BKS...', 24)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\\wamp\\www\\BKS...', 24, Array)
+#2 C:\wamp\www\BKSFLSTeam\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\\wamp\\www\\BKS...', 24, Array)
+#3 C:\wamp\www\BKSFLSTeam\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-05-19 19:59:56 Error: Fatal Error (1): Call to a member function set() on a non-object in [C:\wamp\www\BKSFLSTeam\app\View\Results\index.ctp, line 24]
+2015-05-19 19:59:56 Error: [FatalErrorException] Call to a member function set() on a non-object
+Request URL: /BKSFLSTeam/results
+Stack Trace:
+#0 C:\wamp\www\BKSFLSTeam\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\\wamp\\www\\BKS...', 24)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\\wamp\\www\\BKS...', 24, Array)
+#2 C:\wamp\www\BKSFLSTeam\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\\wamp\\www\\BKS...', 24, Array)
+#3 C:\wamp\www\BKSFLSTeam\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-05-19 20:00:28 Error: Fatal Error (1): Call to a member function set() on a non-object in [C:\wamp\www\BKSFLSTeam\app\View\Results\index.ctp, line 24]
+2015-05-19 20:00:28 Error: [FatalErrorException] Call to a member function set() on a non-object
+Request URL: /BKSFLSTeam/results
+Stack Trace:
+#0 C:\wamp\www\BKSFLSTeam\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\\wamp\\www\\BKS...', 24)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\\wamp\\www\\BKS...', 24, Array)
+#2 C:\wamp\www\BKSFLSTeam\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\\wamp\\www\\BKS...', 24, Array)
+#3 C:\wamp\www\BKSFLSTeam\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-05-19 20:17:35 Error: Fatal Error (1): Call to undefined function setseason() in [C:\wamp\www\BKSFLSTeam\app\View\Results\index.ctp, line 24]
+2015-05-19 20:17:35 Error: [FatalErrorException] Call to undefined function setseason()
+Request URL: /BKSFLSTeam/results
+Stack Trace:
+#0 C:\wamp\www\BKSFLSTeam\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Call to undefin...', 'C:\\wamp\\www\\BKS...', 24)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to undefin...', 'C:\\wamp\\www\\BKS...', 24, Array)
+#2 C:\wamp\www\BKSFLSTeam\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to undefin...', 'C:\\wamp\\www\\BKS...', 24, Array)
+#3 C:\wamp\www\BKSFLSTeam\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-05-19 20:18:57 Error: Fatal Error (1): Call to undefined function setseason() in [C:\wamp\www\BKSFLSTeam\app\View\Results\index.ctp, line 24]
+2015-05-19 20:18:57 Error: [FatalErrorException] Call to undefined function setseason()
+Request URL: /BKSFLSTeam/results
+Stack Trace:
+#0 C:\wamp\www\BKSFLSTeam\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Call to undefin...', 'C:\\wamp\\www\\BKS...', 24)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to undefin...', 'C:\\wamp\\www\\BKS...', 24, Array)
+#2 C:\wamp\www\BKSFLSTeam\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to undefin...', 'C:\\wamp\\www\\BKS...', 24, Array)
+#3 C:\wamp\www\BKSFLSTeam\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-05-19 20:19:17 Error: Fatal Error (1): Call to undefined function setseason() in [C:\wamp\www\BKSFLSTeam\app\View\Results\index.ctp, line 24]
+2015-05-19 20:19:17 Error: [FatalErrorException] Call to undefined function setseason()
+Request URL: /BKSFLSTeam/results
+Stack Trace:
+#0 C:\wamp\www\BKSFLSTeam\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Call to undefin...', 'C:\\wamp\\www\\BKS...', 24)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to undefin...', 'C:\\wamp\\www\\BKS...', 24, Array)
+#2 C:\wamp\www\BKSFLSTeam\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to undefin...', 'C:\\wamp\\www\\BKS...', 24, Array)
+#3 C:\wamp\www\BKSFLSTeam\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-05-19 20:19:18 Error: Fatal Error (1): Call to undefined function setseason() in [C:\wamp\www\BKSFLSTeam\app\View\Results\index.ctp, line 24]
+2015-05-19 20:19:18 Error: [FatalErrorException] Call to undefined function setseason()
+Request URL: /BKSFLSTeam/results
+Stack Trace:
+#0 C:\wamp\www\BKSFLSTeam\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Call to undefin...', 'C:\\wamp\\www\\BKS...', 24)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to undefin...', 'C:\\wamp\\www\\BKS...', 24, Array)
+#2 C:\wamp\www\BKSFLSTeam\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to undefin...', 'C:\\wamp\\www\\BKS...', 24, Array)
+#3 C:\wamp\www\BKSFLSTeam\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-05-19 20:19:19 Error: Fatal Error (1): Call to undefined function setseason() in [C:\wamp\www\BKSFLSTeam\app\View\Results\index.ctp, line 24]
+2015-05-19 20:19:19 Error: [FatalErrorException] Call to undefined function setseason()
+Request URL: /BKSFLSTeam/results
+Stack Trace:
+#0 C:\wamp\www\BKSFLSTeam\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Call to undefin...', 'C:\\wamp\\www\\BKS...', 24)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to undefin...', 'C:\\wamp\\www\\BKS...', 24, Array)
+#2 C:\wamp\www\BKSFLSTeam\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to undefin...', 'C:\\wamp\\www\\BKS...', 24, Array)
+#3 C:\wamp\www\BKSFLSTeam\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-05-19 20:39:37 Error: [MissingControllerException] Controller class UsersController could not be found.
+Exception Attributes: array (
+  'class' => 'UsersController',
+  'plugin' => NULL,
+)
+Request URL: /BKSFLSTeam/users
+Stack Trace:
+#0 C:\wamp\www\BKSFLSTeam\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-05-19 20:40:01 Error: Fatal Error (4): syntax error, unexpected 'public' (T_PUBLIC), expecting '{' in [C:\wamp\www\BKSFLSTeam\app\Controller\UsersController.php, line 4]
+2015-05-19 20:40:01 Error: [FatalErrorException] syntax error, unexpected 'public' (T_PUBLIC), expecting '{'
+Request URL: /BKSFLSTeam/users
+Stack Trace:
+#0 C:\wamp\www\BKSFLSTeam\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\wamp\\www\\BKS...', 4)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\wamp\\www\\BKS...', 4, Array)
+#2 C:\wamp\www\BKSFLSTeam\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\wamp\\www\\BKS...', 4, Array)
+#3 C:\wamp\www\BKSFLSTeam\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-05-19 20:40:02 Error: Fatal Error (4): syntax error, unexpected 'public' (T_PUBLIC), expecting '{' in [C:\wamp\www\BKSFLSTeam\app\Controller\UsersController.php, line 4]
+2015-05-19 20:40:02 Error: [FatalErrorException] syntax error, unexpected 'public' (T_PUBLIC), expecting '{'
+Request URL: /BKSFLSTeam/users
+Stack Trace:
+#0 C:\wamp\www\BKSFLSTeam\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\wamp\\www\\BKS...', 4)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\wamp\\www\\BKS...', 4, Array)
+#2 C:\wamp\www\BKSFLSTeam\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\wamp\\www\\BKS...', 4, Array)
+#3 C:\wamp\www\BKSFLSTeam\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-05-19 20:40:41 Error: Fatal Error (4): syntax error, unexpected 'public' (T_PUBLIC), expecting '{' in [C:\wamp\www\BKSFLSTeam\app\Controller\UsersController.php, line 6]
+2015-05-19 20:40:41 Error: [FatalErrorException] syntax error, unexpected 'public' (T_PUBLIC), expecting '{'
+Request URL: /BKSFLSTeam/users
+Stack Trace:
+#0 C:\wamp\www\BKSFLSTeam\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\wamp\\www\\BKS...', 6)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\wamp\\www\\BKS...', 6, Array)
+#2 C:\wamp\www\BKSFLSTeam\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\wamp\\www\\BKS...', 6, Array)
+#3 C:\wamp\www\BKSFLSTeam\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-05-19 20:40:41 Error: Fatal Error (4): syntax error, unexpected 'public' (T_PUBLIC), expecting '{' in [C:\wamp\www\BKSFLSTeam\app\Controller\UsersController.php, line 6]
+2015-05-19 20:40:41 Error: [FatalErrorException] syntax error, unexpected 'public' (T_PUBLIC), expecting '{'
+Request URL: /BKSFLSTeam/users
+Stack Trace:
+#0 C:\wamp\www\BKSFLSTeam\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\wamp\\www\\BKS...', 6)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\wamp\\www\\BKS...', 6, Array)
+#2 C:\wamp\www\BKSFLSTeam\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\wamp\\www\\BKS...', 6, Array)
+#3 C:\wamp\www\BKSFLSTeam\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-05-19 20:40:42 Error: Fatal Error (4): syntax error, unexpected 'public' (T_PUBLIC), expecting '{' in [C:\wamp\www\BKSFLSTeam\app\Controller\UsersController.php, line 6]
+2015-05-19 20:40:42 Error: [FatalErrorException] syntax error, unexpected 'public' (T_PUBLIC), expecting '{'
+Request URL: /BKSFLSTeam/users
+Stack Trace:
+#0 C:\wamp\www\BKSFLSTeam\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\wamp\\www\\BKS...', 6)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\wamp\\www\\BKS...', 6, Array)
+#2 C:\wamp\www\BKSFLSTeam\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\wamp\\www\\BKS...', 6, Array)
+#3 C:\wamp\www\BKSFLSTeam\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-05-19 20:40:43 Error: Fatal Error (4): syntax error, unexpected 'public' (T_PUBLIC), expecting '{' in [C:\wamp\www\BKSFLSTeam\app\Controller\UsersController.php, line 6]
+2015-05-19 20:40:43 Error: [FatalErrorException] syntax error, unexpected 'public' (T_PUBLIC), expecting '{'
+Request URL: /BKSFLSTeam/users
+Stack Trace:
+#0 C:\wamp\www\BKSFLSTeam\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\wamp\\www\\BKS...', 6)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\wamp\\www\\BKS...', 6, Array)
+#2 C:\wamp\www\BKSFLSTeam\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\wamp\\www\\BKS...', 6, Array)
+#3 C:\wamp\www\BKSFLSTeam\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-05-19 20:40:43 Error: Fatal Error (4): syntax error, unexpected 'public' (T_PUBLIC), expecting '{' in [C:\wamp\www\BKSFLSTeam\app\Controller\UsersController.php, line 6]
+2015-05-19 20:40:43 Error: [FatalErrorException] syntax error, unexpected 'public' (T_PUBLIC), expecting '{'
+Request URL: /BKSFLSTeam/users
+Stack Trace:
+#0 C:\wamp\www\BKSFLSTeam\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\wamp\\www\\BKS...', 6)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\wamp\\www\\BKS...', 6, Array)
+#2 C:\wamp\www\BKSFLSTeam\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\wamp\\www\\BKS...', 6, Array)
+#3 C:\wamp\www\BKSFLSTeam\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-05-19 20:40:47 Error: Fatal Error (4): syntax error, unexpected 'public' (T_PUBLIC), expecting '{' in [C:\wamp\www\BKSFLSTeam\app\Controller\UsersController.php, line 6]
+2015-05-19 20:40:47 Error: [FatalErrorException] syntax error, unexpected 'public' (T_PUBLIC), expecting '{'
+Request URL: /BKSFLSTeam/users
+Stack Trace:
+#0 C:\wamp\www\BKSFLSTeam\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\wamp\\www\\BKS...', 6)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\wamp\\www\\BKS...', 6, Array)
+#2 C:\wamp\www\BKSFLSTeam\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\wamp\\www\\BKS...', 6, Array)
+#3 C:\wamp\www\BKSFLSTeam\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-05-19 20:41:13 Error: Fatal Error (4): syntax error, unexpected '}' in [C:\wamp\www\BKSFLSTeam\app\Controller\UsersController.php, line 74]
+2015-05-19 20:41:13 Error: [FatalErrorException] syntax error, unexpected '}'
+Request URL: /BKSFLSTeam/users
+Stack Trace:
+#0 C:\wamp\www\BKSFLSTeam\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\wamp\\www\\BKS...', 74)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\wamp\\www\\BKS...', 74, Array)
+#2 C:\wamp\www\BKSFLSTeam\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\wamp\\www\\BKS...', 74, Array)
+#3 C:\wamp\www\BKSFLSTeam\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-05-19 20:41:14 Error: Fatal Error (4): syntax error, unexpected '}' in [C:\wamp\www\BKSFLSTeam\app\Controller\UsersController.php, line 74]
+2015-05-19 20:41:14 Error: [FatalErrorException] syntax error, unexpected '}'
+Request URL: /BKSFLSTeam/users
+Stack Trace:
+#0 C:\wamp\www\BKSFLSTeam\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\wamp\\www\\BKS...', 74)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\wamp\\www\\BKS...', 74, Array)
+#2 C:\wamp\www\BKSFLSTeam\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\wamp\\www\\BKS...', 74, Array)
+#3 C:\wamp\www\BKSFLSTeam\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-05-19 20:41:15 Error: Fatal Error (4): syntax error, unexpected '}' in [C:\wamp\www\BKSFLSTeam\app\Controller\UsersController.php, line 74]
+2015-05-19 20:41:15 Error: [FatalErrorException] syntax error, unexpected '}'
+Request URL: /BKSFLSTeam/users
+Stack Trace:
+#0 C:\wamp\www\BKSFLSTeam\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\wamp\\www\\BKS...', 74)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\wamp\\www\\BKS...', 74, Array)
+#2 C:\wamp\www\BKSFLSTeam\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\wamp\\www\\BKS...', 74, Array)
+#3 C:\wamp\www\BKSFLSTeam\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-05-19 20:41:15 Error: Fatal Error (4): syntax error, unexpected '}' in [C:\wamp\www\BKSFLSTeam\app\Controller\UsersController.php, line 74]
+2015-05-19 20:41:15 Error: [FatalErrorException] syntax error, unexpected '}'
+Request URL: /BKSFLSTeam/users
+Stack Trace:
+#0 C:\wamp\www\BKSFLSTeam\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\wamp\\www\\BKS...', 74)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\wamp\\www\\BKS...', 74, Array)
+#2 C:\wamp\www\BKSFLSTeam\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\wamp\\www\\BKS...', 74, Array)
+#3 C:\wamp\www\BKSFLSTeam\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-05-19 20:41:16 Error: Fatal Error (4): syntax error, unexpected '}' in [C:\wamp\www\BKSFLSTeam\app\Controller\UsersController.php, line 74]
+2015-05-19 20:41:16 Error: [FatalErrorException] syntax error, unexpected '}'
+Request URL: /BKSFLSTeam/users
+Stack Trace:
+#0 C:\wamp\www\BKSFLSTeam\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\wamp\\www\\BKS...', 74)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\wamp\\www\\BKS...', 74, Array)
+#2 C:\wamp\www\BKSFLSTeam\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\wamp\\www\\BKS...', 74, Array)
+#3 C:\wamp\www\BKSFLSTeam\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-05-19 20:41:21 Error: Fatal Error (1): Call to a member function allow() on a non-object in [C:\wamp\www\BKSFLSTeam\app\Controller\UsersController.php, line 7]
+2015-05-19 20:41:21 Error: [FatalErrorException] Call to a member function allow() on a non-object
+Request URL: /BKSFLSTeam/users
+Stack Trace:
+#0 C:\wamp\www\BKSFLSTeam\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\\wamp\\www\\BKS...', 7)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\\wamp\\www\\BKS...', 7, Array)
+#2 C:\wamp\www\BKSFLSTeam\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\\wamp\\www\\BKS...', 7, Array)
+#3 C:\wamp\www\BKSFLSTeam\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-05-19 20:41:22 Error: Fatal Error (1): Call to a member function allow() on a non-object in [C:\wamp\www\BKSFLSTeam\app\Controller\UsersController.php, line 7]
+2015-05-19 20:41:22 Error: [FatalErrorException] Call to a member function allow() on a non-object
+Request URL: /BKSFLSTeam/users
+Stack Trace:
+#0 C:\wamp\www\BKSFLSTeam\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\\wamp\\www\\BKS...', 7)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\\wamp\\www\\BKS...', 7, Array)
+#2 C:\wamp\www\BKSFLSTeam\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\\wamp\\www\\BKS...', 7, Array)
+#3 C:\wamp\www\BKSFLSTeam\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-05-19 20:41:22 Error: Fatal Error (1): Call to a member function allow() on a non-object in [C:\wamp\www\BKSFLSTeam\app\Controller\UsersController.php, line 7]
+2015-05-19 20:41:22 Error: [FatalErrorException] Call to a member function allow() on a non-object
+Request URL: /BKSFLSTeam/users
+Stack Trace:
+#0 C:\wamp\www\BKSFLSTeam\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\\wamp\\www\\BKS...', 7)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\\wamp\\www\\BKS...', 7, Array)
+#2 C:\wamp\www\BKSFLSTeam\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\\wamp\\www\\BKS...', 7, Array)
+#3 C:\wamp\www\BKSFLSTeam\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-05-19 20:41:42 Error: Fatal Error (1): Class 'AppModel' not found in [C:\wamp\www\BKSFLSTeam\app\Model\User.php, line 32]
+2015-05-19 20:41:42 Error: [FatalErrorException] Class 'AppModel' not found
+Request URL: /BKSFLSTeam/users
+Stack Trace:
+#0 C:\wamp\www\BKSFLSTeam\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Class 'AppModel...', 'C:\\wamp\\www\\BKS...', 32)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'AppModel...', 'C:\\wamp\\www\\BKS...', 32, Array)
+#2 C:\wamp\www\BKSFLSTeam\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 1, 'Class 'AppModel...', 'C:\\wamp\\www\\BKS...', 32, Array)
+#3 C:\wamp\www\BKSFLSTeam\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-05-19 20:42:32 Error: [MissingActionException] Action UsersController::add() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'add',
+)
+Request URL: /BKSFLSTeam/users/add
+Stack Trace:
+#0 C:\wamp\www\BKSFLSTeam\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\BKSFLSTeam\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 C:\wamp\www\BKSFLSTeam\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-05-19 20:43:20 Error: Fatal Error (1): Class 'AppModel' not found in [C:\wamp\www\BKSFLSTeam\app\Model\Post.php, line 4]
+2015-05-19 20:43:20 Error: [FatalErrorException] Class 'AppModel' not found
+Request URL: /BKSFLSTeam/
+Stack Trace:
+#0 C:\wamp\www\BKSFLSTeam\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Class 'AppModel...', 'C:\\wamp\\www\\BKS...', 4)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'AppModel...', 'C:\\wamp\\www\\BKS...', 4, Array)
+#2 C:\wamp\www\BKSFLSTeam\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 1, 'Class 'AppModel...', 'C:\\wamp\\www\\BKS...', 4, Array)
+#3 C:\wamp\www\BKSFLSTeam\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-05-19 20:43:35 Error: Fatal Error (1): Class 'AppModel' not found in [C:\wamp\www\BKSFLSTeam\app\Model\Post.php, line 4]
+2015-05-19 20:43:35 Error: [FatalErrorException] Class 'AppModel' not found
+Request URL: /BKSFLSTeam/
+Stack Trace:
+#0 C:\wamp\www\BKSFLSTeam\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Class 'AppModel...', 'C:\\wamp\\www\\BKS...', 4)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'AppModel...', 'C:\\wamp\\www\\BKS...', 4, Array)
+#2 C:\wamp\www\BKSFLSTeam\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 1, 'Class 'AppModel...', 'C:\\wamp\\www\\BKS...', 4, Array)
+#3 C:\wamp\www\BKSFLSTeam\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-05-19 20:45:16 Error: Fatal Error (1): Class 'AppModel' not found in [C:\wamp\www\BKSFLSTeam\app\Model\Post.php, line 4]
+2015-05-19 20:45:16 Error: [FatalErrorException] Class 'AppModel' not found
+Request URL: /BKSFLSTeam/
+Stack Trace:
+#0 C:\wamp\www\BKSFLSTeam\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Class 'AppModel...', 'C:\\wamp\\www\\BKS...', 4)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'AppModel...', 'C:\\wamp\\www\\BKS...', 4, Array)
+#2 C:\wamp\www\BKSFLSTeam\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 1, 'Class 'AppModel...', 'C:\\wamp\\www\\BKS...', 4, Array)
+#3 C:\wamp\www\BKSFLSTeam\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-05-19 20:45:17 Error: Fatal Error (1): Class 'AppModel' not found in [C:\wamp\www\BKSFLSTeam\app\Model\Post.php, line 4]
+2015-05-19 20:45:17 Error: [FatalErrorException] Class 'AppModel' not found
+Request URL: /BKSFLSTeam/
+Stack Trace:
+#0 C:\wamp\www\BKSFLSTeam\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Class 'AppModel...', 'C:\\wamp\\www\\BKS...', 4)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'AppModel...', 'C:\\wamp\\www\\BKS...', 4, Array)
+#2 C:\wamp\www\BKSFLSTeam\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 1, 'Class 'AppModel...', 'C:\\wamp\\www\\BKS...', 4, Array)
+#3 C:\wamp\www\BKSFLSTeam\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-05-19 20:45:18 Error: Fatal Error (1): Class 'AppModel' not found in [C:\wamp\www\BKSFLSTeam\app\Model\Post.php, line 4]
+2015-05-19 20:45:18 Error: [FatalErrorException] Class 'AppModel' not found
+Request URL: /BKSFLSTeam/
+Stack Trace:
+#0 C:\wamp\www\BKSFLSTeam\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Class 'AppModel...', 'C:\\wamp\\www\\BKS...', 4)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'AppModel...', 'C:\\wamp\\www\\BKS...', 4, Array)
+#2 C:\wamp\www\BKSFLSTeam\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 1, 'Class 'AppModel...', 'C:\\wamp\\www\\BKS...', 4, Array)
+#3 C:\wamp\www\BKSFLSTeam\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
