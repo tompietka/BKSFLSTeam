@@ -19,7 +19,8 @@
  * @license       http://www.opensource.org/licenses/mit-license.php MIT License
  */
 
-App::uses('Model', 'Model');
+App::uses('AppModel', 'Model');
+App::uses('BlowfishPasswordHasher', 'Controller/Component/Auth');
 
 /**
  * Application model for Cake.
@@ -29,7 +30,18 @@ App::uses('Model', 'Model');
  *
  * @package       app.Model
  */
-class User extends AppModel {
+class User extends AppModel 
+{
+    public function beforeSave($options = array()) {
+    if (isset($this->data[$this->alias]['password'])) {
+        $passwordHasher = new BlowfishPasswordHasher();
+        $this->data[$this->alias]['password'] = $passwordHasher->hash(
+            $this->data[$this->alias]['password']
+        );
+    }
+    return true;
+}
+
     public $validate = array(
         'username' => array(
             'required' => array(
@@ -51,4 +63,6 @@ class User extends AppModel {
             )
         )
     );
+
+
 }
