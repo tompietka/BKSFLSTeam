@@ -17,10 +17,10 @@ class PlayersController extends AppController
             $this->Player->create();
             if ($this->Player->save($this->request->data)) 
 			{
-                $this->Session->setFlash(__('Your Player has been saved.'));
+                $this->Session->setFlash(__('Zawodnik został zapisany.'));
                 return $this->redirect(array('action' => 'index'));
             }
-            $this->Session->setFlash(__('Unable to add your Player.'));
+            $this->Session->setFlash(__('Nie można zapisać zawodnika.'));
         }
     }
 
@@ -44,10 +44,10 @@ class PlayersController extends AppController
 			$this->Player->id = $id;
 			if ($this->Player->save($this->request->data)) 
 			{
-				$this->Session->setFlash(__('Your Player has been updated.'));
+				$this->Session->setFlash(__('Statystyki zawodnika zredagowane.'));
 				return $this->redirect(array('action' => 'index'));
 			}
-        $this->Session->setFlash(__('Unable to update your Player.'));
+        $this->Session->setFlash(__('Nie można zredagować statystyk zawodnika.'));
 		}
 
     if (!$this->request->data) 
@@ -64,12 +64,12 @@ class PlayersController extends AppController
     if ($this->Player->delete($id)) 
 	{
         $this->Session->setFlash(
-            __('The Player with id: %s has been deleted.', h($id))
+            __('Zawodnik usunięty.', h($id))
         );
     } else 
 	{
         $this->Session->setFlash(
-            __('The Player with id: %s could not be deleted.', h($id))
+            __('Zawodnik nie może zostać usunięty.', h($id))
         );
     }
     return $this->redirect(array('action' => 'index'));

@@ -353,6 +353,8 @@ fieldset fieldset div {
 	clear: left;
 	margin: 0 20px;
 }
+
+
 form div {
 	clear: both;
 	margin-bottom: 1em;
@@ -361,6 +363,7 @@ form div {
 }
 form .input {
 	color: #444;
+	width: 50%;
 }
 form .required {
 	font-weight: bold;

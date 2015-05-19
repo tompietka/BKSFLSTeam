@@ -1,14 +1,6 @@
 ﻿<body>
   <div id="content">
 
-<table class="menu">
-    <tr>
-        <th><a href="posts">Informacje</a></th>
-        <th><a href="players">Zawodnicy</a></th>
-        <th><a href="results">Wyniki</a></th>
-		<th><a href="contact">Kontakt</a></th>
-    </tr>
-</table>
 
 <table class="content1">
     <tr>
@@ -22,8 +14,6 @@
         <th>Akcje</th>
         <th>Data dodania</th>
     </tr>
-
-<!-- Here's where we loop through our $posts array, printing out post info -->
 
     <?php foreach ($posts as $post): ?>
     <tr>

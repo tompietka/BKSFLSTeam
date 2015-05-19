@@ -29,10 +29,10 @@ class PostsController extends AppController
             $this->Post->create();
             if ($this->Post->save($this->request->data)) 
 			{
-                $this->Session->setFlash(__('Your post has been saved.'));
+                $this->Session->setFlash(__('Dodano wpis.'));
                 return $this->redirect(array('action' => 'index'));
             }
-            $this->Session->setFlash(__('Unable to add your post.'));
+            $this->Session->setFlash(__('Nie można dodać wpisu.'));
         }
     }
 	
@@ -54,10 +54,10 @@ class PostsController extends AppController
 			$this->Post->id = $id;
 			if ($this->Post->save($this->request->data)) 
 			{
-				$this->Session->setFlash(__('Your post has been updated.'));
+				$this->Session->setFlash(__('Wpis został zredagowany.'));
 				return $this->redirect(array('action' => 'index'));
 			}
-        $this->Session->setFlash(__('Unable to update your post.'));
+        $this->Session->setFlash(__('Nie można zredagować wpisu.'));
 		}
 
     if (!$this->request->data) 

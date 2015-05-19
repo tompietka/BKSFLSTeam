@@ -15,7 +15,6 @@
  */
 
 $cakeDescription = __d('cake_dev', 'Zespół BKS - Futbolowa Liga Szóstek');
-$BKSDescription = __d('cake_dev', 'Zespół BKS - Futbolowa Liga Szóstek');
 $Login = __d('cake_dev', 'Login');
 $Logout = __d('cake_dev', 'Logout');
 $cakeVersion = __d('cake_dev', 'CakePHP %s', Configure::version())
@@ -42,13 +41,27 @@ $cakeVersion = __d('cake_dev', 'CakePHP %s', Configure::version())
 	<div id="container">
 		<div id="header">
 			<h1 align="right">
-				<?php echo $this->Auth->user();?>
-				<?php echo $this->Html->link($Login, '../users/login');?>
-				<?php echo $this->Html->link($Logout, '../users/logout');?>
+				<?php echo $this->Html->link($cakeDescription, 'http://liga-fls.pl/');?>
 			</h1>
 
 		</div>
 		<div id="content">
+			<div style="text-align: right;">
+				<?php if ($logged_in): ?>
+					Zalogowano: <?php echo $current_user['username']; ?> <?php echo $this->Html->link('Wyloguj', array('controller' => 'users', 'action' => 'logout'));?>
+				<?php else: ?>
+					<?php echo $this->Html->link('Zaloguj', array('controller' => 'users', 'action' => 'login'));?>
+				<?php endif; ?>	
+			</div>
+
+<table class="menu">
+    <tr>
+        <th><a href="/BKSFLSTeam/posts">Informacje</a></th>
+        <th><a href="/BKSFLSTeam/players">Zawodnicy</a></th>
+        <th><a href="/BKSFLSTeam/results">Wyniki</a></th>
+		<th><a href="/BKSFLSTeam/contact">Kontakt</a></th>
+    </tr>
+</table>
 
 			<?php echo $this->Session->flash(); ?>
 

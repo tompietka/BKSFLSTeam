@@ -38,14 +38,13 @@ class AppController extends Controller {
         'Auth' => array(
             'loginRedirect' => array
             (
-                'controller' => 'posts',
+                'controller' => 'users',
                 'action' => 'index'
             ),
             'logoutRedirect' => array
             (
-                'controller' => 'posts',
+                'controller' => 'users',
                 'action' => 'index',
-                'home'
             ),
             'authenticate' => array(
                 'Form' => array(
@@ -59,6 +58,9 @@ class AppController extends Controller {
     public function beforeFilter() 
     {
         $this->Auth->allow('index', 'view');
+        $this->set('logged_in', $this->Auth->loggedIn());
+        $this->set('current_user', $this->Auth->user());
+
     }
     
     public function isAuthorized($user) {
@@ -71,14 +73,4 @@ class AppController extends Controller {
     return false;
     }
 
-    public function getUser($request) 
-    {
-    $username = env('PHP_AUTH_USER');
-    $password = env('PHP_AUTH_PW');
-
-    if (empty($username) || empty($pass)) {
-        return false;
-    }
-    return $this->_findUser($username, $pass);
-}
 }
