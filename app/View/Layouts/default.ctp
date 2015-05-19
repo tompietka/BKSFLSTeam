@@ -14,8 +14,10 @@
  * @license       http://www.opensource.org/licenses/mit-license.php MIT License
  */
 
-$cakeDescription = __d('cake_dev', 'CakePHP: the rapid development php framework');
+$cakeDescription = __d('cake_dev', 'Zespół BKS - Futbolowa Liga Szóstek');
 $BKSDescription = __d('cake_dev', 'Zespół BKS - Futbolowa Liga Szóstek');
+$Login = __d('cake_dev', 'Login');
+$Logout = __d('cake_dev', 'Logout');
 $cakeVersion = __d('cake_dev', 'CakePHP %s', Configure::version())
 ?>
 <!DOCTYPE html>
@@ -39,7 +41,12 @@ $cakeVersion = __d('cake_dev', 'CakePHP %s', Configure::version())
 <body>
 	<div id="container">
 		<div id="header">
-			<h1 align="right"><?php echo $this->Html->link($BKSDescription, 'http://liga-fls.pl/home/'); ?></h1>
+			<h1 align="right">
+				<?php echo $this->Auth->user();?>
+				<?php echo $this->Html->link($Login, '../users/login');?>
+				<?php echo $this->Html->link($Logout, '../users/logout');?>
+			</h1>
+
 		</div>
 		<div id="content">
 
@@ -53,6 +60,7 @@ $cakeVersion = __d('cake_dev', 'CakePHP %s', Configure::version())
 					'http://www.cakephp.org/',
 					array('target' => '_blank', 'escape' => false, 'id' => 'cake-powered')
 				);
+				
 			?>
 			<p>
 				<?php echo $cakeVersion; ?>

@@ -36,13 +36,15 @@ class AppController extends Controller {
     public $components = array(
         'Session',
         'Auth' => array(
-            'loginRedirect' => array(
+            'loginRedirect' => array
+            (
                 'controller' => 'posts',
                 'action' => 'index'
             ),
-            'logoutRedirect' => array(
-                'controller' => 'pages',
-                'action' => 'display',
+            'logoutRedirect' => array
+            (
+                'controller' => 'posts',
+                'action' => 'index',
                 'home'
             ),
             'authenticate' => array(
@@ -67,5 +69,16 @@ class AppController extends Controller {
 
     // Default deny
     return false;
+    }
+
+    public function getUser($request) 
+    {
+    $username = env('PHP_AUTH_USER');
+    $password = env('PHP_AUTH_PW');
+
+    if (empty($username) || empty($pass)) {
+        return false;
+    }
+    return $this->_findUser($username, $pass);
 }
 }

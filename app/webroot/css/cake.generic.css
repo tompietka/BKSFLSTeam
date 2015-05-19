@@ -140,8 +140,28 @@ div.actions h3 {
 }
 
 
+table.loginpane
+{
+	align: right;
+	
+	border-right:0;
+	clear: both;
+	margin-left:auto; 
+	margin-bottom: 10px;
+	width: 30%;
+}
+
+table.loginpane th 
+{
+	border:0;
+	text-align: right;
+	padding:4px;
+}
+
+
 /** Tables **/
-table.menu {
+table.menu 
+{
 	border-right:0;
 	clear: both;
 	color: #111;
@@ -151,7 +171,8 @@ table.menu {
 	width: 100%;
 }
 
-table.menu th {
+table.menu th 
+{
 	border:0;
 	border-left:2px solid #555;
 	border-right:2px solid #555;

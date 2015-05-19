@@ -7,8 +7,7 @@ class resultsController extends AppController
 
     public function index() 
 	{
-	require 'SeasonsController.php';
-	$seasons = new SeasonsController();
+
         $this->set('results', $this->result->find('all'));
 
     }

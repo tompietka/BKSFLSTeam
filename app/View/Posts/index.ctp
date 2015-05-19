@@ -1,7 +1,6 @@
 ﻿<body>
   <div id="content">
 
-<!-- File: /app/View/Posts/index.ctp -->
 <table class="menu">
     <tr>
         <th><a href="posts">Informacje</a></th>

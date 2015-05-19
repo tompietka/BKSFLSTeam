@@ -1030,3 +1030,342 @@ Stack Trace:
 #3 C:\wamp\www\BKSFLSTeam\lib\Cake\Core\App.php(904): App::_checkFatalError()
 #4 [internal function]: App::shutdown()
 #5 {main}
+2015-05-19 21:47:07 Error: Fatal Error (1): Class 'SeasonsController' not found in [C:\wamp\www\BKSFLSTeam\app\Controller\ResultsController.php, line 11]
+2015-05-19 21:47:07 Error: [FatalErrorException] Class 'SeasonsController' not found
+Request URL: /BKSFLSTeam/results
+Stack Trace:
+#0 C:\wamp\www\BKSFLSTeam\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Class 'SeasonsC...', 'C:\\wamp\\www\\BKS...', 11)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'SeasonsC...', 'C:\\wamp\\www\\BKS...', 11, Array)
+#2 C:\wamp\www\BKSFLSTeam\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 1, 'Class 'SeasonsC...', 'C:\\wamp\\www\\BKS...', 11, Array)
+#3 C:\wamp\www\BKSFLSTeam\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-05-19 21:47:12 Error: Fatal Error (1): Class 'SeasonsController' not found in [C:\wamp\www\BKSFLSTeam\app\Controller\ResultsController.php, line 11]
+2015-05-19 21:47:12 Error: [FatalErrorException] Class 'SeasonsController' not found
+Request URL: /BKSFLSTeam/results
+Stack Trace:
+#0 C:\wamp\www\BKSFLSTeam\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Class 'SeasonsC...', 'C:\\wamp\\www\\BKS...', 11)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'SeasonsC...', 'C:\\wamp\\www\\BKS...', 11, Array)
+#2 C:\wamp\www\BKSFLSTeam\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 1, 'Class 'SeasonsC...', 'C:\\wamp\\www\\BKS...', 11, Array)
+#3 C:\wamp\www\BKSFLSTeam\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-05-19 21:55:15 Error: Fatal Error (4): syntax error, unexpected '$this' (T_VARIABLE) in [C:\wamp\www\BKSFLSTeam\app\View\Posts\index.ctp, line 7]
+2015-05-19 21:55:15 Error: [FatalErrorException] syntax error, unexpected '$this' (T_VARIABLE)
+Request URL: /BKSFLSTeam/posts
+Stack Trace:
+#0 C:\wamp\www\BKSFLSTeam\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\wamp\\www\\BKS...', 7)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\wamp\\www\\BKS...', 7, Array)
+#2 C:\wamp\www\BKSFLSTeam\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\wamp\\www\\BKS...', 7, Array)
+#3 C:\wamp\www\BKSFLSTeam\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-05-19 22:00:55 Error: Fatal Error (4): syntax error, unexpected '$this' (T_VARIABLE) in [C:\wamp\www\BKSFLSTeam\app\View\Posts\index.ctp, line 7]
+2015-05-19 22:00:55 Error: [FatalErrorException] syntax error, unexpected '$this' (T_VARIABLE)
+Request URL: /BKSFLSTeam/
+Stack Trace:
+#0 C:\wamp\www\BKSFLSTeam\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\wamp\\www\\BKS...', 7)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\wamp\\www\\BKS...', 7, Array)
+#2 C:\wamp\www\BKSFLSTeam\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\wamp\\www\\BKS...', 7, Array)
+#3 C:\wamp\www\BKSFLSTeam\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-05-19 22:04:09 Error: [MissingHelperException] Helper class AuthHelper could not be found.
+Exception Attributes: array (
+  'class' => 'AuthHelper',
+  'plugin' => false,
+)
+Request URL: /BKSFLSTeam/posts/index/users/logout
+Stack Trace:
+#0 C:\wamp\www\BKSFLSTeam\lib\Cake\View\HelperCollection.php(63): HelperCollection->load('Auth')
+#1 C:\wamp\www\BKSFLSTeam\lib\Cake\View\View.php(848): HelperCollection->__isset('Auth')
+#2 C:\wamp\www\BKSFLSTeam\app\View\Posts\index.ctp(7): View->__get('Auth')
+#3 C:\wamp\www\BKSFLSTeam\lib\Cake\View\View.php(961): include('C:\\wamp\\www\\BKS...')
+#4 C:\wamp\www\BKSFLSTeam\lib\Cake\View\View.php(923): View->_evaluate('C:\\wamp\\www\\BKS...', Array)
+#5 C:\wamp\www\BKSFLSTeam\lib\Cake\View\View.php(473): View->_render('C:\\wamp\\www\\BKS...')
+#6 C:\wamp\www\BKSFLSTeam\lib\Cake\Controller\Controller.php(960): View->render(NULL, NULL)
+#7 C:\wamp\www\BKSFLSTeam\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#8 C:\wamp\www\BKSFLSTeam\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#9 C:\wamp\www\BKSFLSTeam\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2015-05-19 22:04:24 Error: [MissingHelperException] Helper class AuthHelper could not be found.
+Exception Attributes: array (
+  'class' => 'AuthHelper',
+  'plugin' => false,
+)
+Request URL: /BKSFLSTeam/posts/index/users/logout
+Stack Trace:
+#0 C:\wamp\www\BKSFLSTeam\lib\Cake\View\HelperCollection.php(63): HelperCollection->load('Auth')
+#1 C:\wamp\www\BKSFLSTeam\lib\Cake\View\View.php(848): HelperCollection->__isset('Auth')
+#2 C:\wamp\www\BKSFLSTeam\app\View\Posts\index.ctp(7): View->__get('Auth')
+#3 C:\wamp\www\BKSFLSTeam\lib\Cake\View\View.php(961): include('C:\\wamp\\www\\BKS...')
+#4 C:\wamp\www\BKSFLSTeam\lib\Cake\View\View.php(923): View->_evaluate('C:\\wamp\\www\\BKS...', Array)
+#5 C:\wamp\www\BKSFLSTeam\lib\Cake\View\View.php(473): View->_render('C:\\wamp\\www\\BKS...')
+#6 C:\wamp\www\BKSFLSTeam\lib\Cake\Controller\Controller.php(960): View->render(NULL, NULL)
+#7 C:\wamp\www\BKSFLSTeam\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#8 C:\wamp\www\BKSFLSTeam\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#9 C:\wamp\www\BKSFLSTeam\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2015-05-19 22:05:25 Error: Fatal Error (1): Class 'AppHelper' not found in [C:\wamp\www\BKSFLSTeam\lib\Cake\View\Helper\HtmlHelper.php, line 32]
+2015-05-19 22:05:25 Error: [FatalErrorException] Class 'AppHelper' not found
+Request URL: /BKSFLSTeam/posts/index/users/logout
+Stack Trace:
+#0 C:\wamp\www\BKSFLSTeam\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Class 'AppHelpe...', 'C:\\wamp\\www\\BKS...', 32)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'AppHelpe...', 'C:\\wamp\\www\\BKS...', 32, Array)
+#2 C:\wamp\www\BKSFLSTeam\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 1, 'Class 'AppHelpe...', 'C:\\wamp\\www\\BKS...', 32, Array)
+#3 C:\wamp\www\BKSFLSTeam\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-05-19 22:05:40 Error: Fatal Error (1): Class 'AppHelper' not found in [C:\wamp\www\BKSFLSTeam\lib\Cake\View\Helper\HtmlHelper.php, line 32]
+2015-05-19 22:05:40 Error: [FatalErrorException] Class 'AppHelper' not found
+Request URL: /BKSFLSTeam/posts/
+Stack Trace:
+#0 C:\wamp\www\BKSFLSTeam\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Class 'AppHelpe...', 'C:\\wamp\\www\\BKS...', 32)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'AppHelpe...', 'C:\\wamp\\www\\BKS...', 32, Array)
+#2 C:\wamp\www\BKSFLSTeam\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 1, 'Class 'AppHelpe...', 'C:\\wamp\\www\\BKS...', 32, Array)
+#3 C:\wamp\www\BKSFLSTeam\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-05-19 22:05:56 Error: Fatal Error (1): Class 'AppHelper' not found in [C:\wamp\www\BKSFLSTeam\lib\Cake\View\Helper\HtmlHelper.php, line 32]
+2015-05-19 22:05:56 Error: [FatalErrorException] Class 'AppHelper' not found
+Request URL: /BKSFLSTeam/posts/
+Stack Trace:
+#0 C:\wamp\www\BKSFLSTeam\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Class 'AppHelpe...', 'C:\\wamp\\www\\BKS...', 32)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'AppHelpe...', 'C:\\wamp\\www\\BKS...', 32, Array)
+#2 C:\wamp\www\BKSFLSTeam\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 1, 'Class 'AppHelpe...', 'C:\\wamp\\www\\BKS...', 32, Array)
+#3 C:\wamp\www\BKSFLSTeam\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-05-19 22:06:02 Error: [MissingHelperException] Helper class AuthHelper could not be found.
+Exception Attributes: array (
+  'class' => 'AuthHelper',
+  'plugin' => false,
+)
+Request URL: /BKSFLSTeam/posts/
+Stack Trace:
+#0 C:\wamp\www\BKSFLSTeam\lib\Cake\View\HelperCollection.php(63): HelperCollection->load('Auth')
+#1 C:\wamp\www\BKSFLSTeam\lib\Cake\View\View.php(848): HelperCollection->__isset('Auth')
+#2 C:\wamp\www\BKSFLSTeam\app\View\Posts\index.ctp(7): View->__get('Auth')
+#3 C:\wamp\www\BKSFLSTeam\lib\Cake\View\View.php(961): include('C:\\wamp\\www\\BKS...')
+#4 C:\wamp\www\BKSFLSTeam\lib\Cake\View\View.php(923): View->_evaluate('C:\\wamp\\www\\BKS...', Array)
+#5 C:\wamp\www\BKSFLSTeam\lib\Cake\View\View.php(473): View->_render('C:\\wamp\\www\\BKS...')
+#6 C:\wamp\www\BKSFLSTeam\lib\Cake\Controller\Controller.php(960): View->render(NULL, NULL)
+#7 C:\wamp\www\BKSFLSTeam\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#8 C:\wamp\www\BKSFLSTeam\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#9 C:\wamp\www\BKSFLSTeam\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2015-05-19 22:06:49 Error: [MissingActionException] Action PostsController::users() could not be found.
+Exception Attributes: array (
+  'controller' => 'PostsController',
+  'action' => 'users',
+)
+Request URL: /BKSFLSTeam/posts/users/login
+Stack Trace:
+#0 C:\wamp\www\BKSFLSTeam\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\BKSFLSTeam\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#2 C:\wamp\www\BKSFLSTeam\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-05-19 22:07:00 Error: [MissingActionException] Action PostsController::users() could not be found.
+Exception Attributes: array (
+  'controller' => 'PostsController',
+  'action' => 'users',
+)
+Request URL: /BKSFLSTeam/posts/users/logout
+Stack Trace:
+#0 C:\wamp\www\BKSFLSTeam\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\BKSFLSTeam\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#2 C:\wamp\www\BKSFLSTeam\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-05-19 22:08:52 Error: [MissingActionException] Action PostsController::users() could not be found.
+Exception Attributes: array (
+  'controller' => 'PostsController',
+  'action' => 'users',
+)
+Request URL: /BKSFLSTeam/posts/users/logout
+Stack Trace:
+#0 C:\wamp\www\BKSFLSTeam\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\BKSFLSTeam\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#2 C:\wamp\www\BKSFLSTeam\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-05-19 22:10:05 Error: [MissingActionException] Action PostsController::users() could not be found.
+Exception Attributes: array (
+  'controller' => 'PostsController',
+  'action' => 'users',
+)
+Request URL: /BKSFLSTeam/posts/users/login
+Stack Trace:
+#0 C:\wamp\www\BKSFLSTeam\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\BKSFLSTeam\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#2 C:\wamp\www\BKSFLSTeam\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-05-19 22:10:33 Error: [MissingActionException] Action PostsController::users() could not be found.
+Exception Attributes: array (
+  'controller' => 'PostsController',
+  'action' => 'users',
+)
+Request URL: /BKSFLSTeam/posts/users/login
+Stack Trace:
+#0 C:\wamp\www\BKSFLSTeam\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\BKSFLSTeam\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#2 C:\wamp\www\BKSFLSTeam\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-05-19 22:10:38 Error: [MissingActionException] Action PostsController::users() could not be found.
+Exception Attributes: array (
+  'controller' => 'PostsController',
+  'action' => 'users',
+)
+Request URL: /BKSFLSTeam/posts/users/login
+Stack Trace:
+#0 C:\wamp\www\BKSFLSTeam\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\BKSFLSTeam\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#2 C:\wamp\www\BKSFLSTeam\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-05-19 22:11:24 Error: [MissingActionException] Action PostsController::users() could not be found.
+Exception Attributes: array (
+  'controller' => 'PostsController',
+  'action' => 'users',
+)
+Request URL: /BKSFLSTeam/posts/users/login
+Stack Trace:
+#0 C:\wamp\www\BKSFLSTeam\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\BKSFLSTeam\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#2 C:\wamp\www\BKSFLSTeam\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-05-19 22:11:28 Error: [MissingActionException] Action PostsController::users() could not be found.
+Exception Attributes: array (
+  'controller' => 'PostsController',
+  'action' => 'users',
+)
+Request URL: /BKSFLSTeam/posts/users/login
+Stack Trace:
+#0 C:\wamp\www\BKSFLSTeam\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\BKSFLSTeam\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#2 C:\wamp\www\BKSFLSTeam\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-05-19 22:11:54 Error: [MissingActionException] Action PostsController::users() could not be found.
+Exception Attributes: array (
+  'controller' => 'PostsController',
+  'action' => 'users',
+)
+Request URL: /BKSFLSTeam/posts/users/login
+Stack Trace:
+#0 C:\wamp\www\BKSFLSTeam\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\BKSFLSTeam\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#2 C:\wamp\www\BKSFLSTeam\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-05-19 22:11:55 Error: [MissingActionException] Action PostsController::users() could not be found.
+Exception Attributes: array (
+  'controller' => 'PostsController',
+  'action' => 'users',
+)
+Request URL: /BKSFLSTeam/posts/users/login
+Stack Trace:
+#0 C:\wamp\www\BKSFLSTeam\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\BKSFLSTeam\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#2 C:\wamp\www\BKSFLSTeam\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-05-19 22:11:56 Error: [MissingActionException] Action PostsController::users() could not be found.
+Exception Attributes: array (
+  'controller' => 'PostsController',
+  'action' => 'users',
+)
+Request URL: /BKSFLSTeam/posts/users/login
+Stack Trace:
+#0 C:\wamp\www\BKSFLSTeam\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\BKSFLSTeam\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#2 C:\wamp\www\BKSFLSTeam\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-05-19 22:12:46 Error: [MissingActionException] Action PostsController::users() could not be found.
+Exception Attributes: array (
+  'controller' => 'PostsController',
+  'action' => 'users',
+)
+Request URL: /BKSFLSTeam/posts/users/login
+Stack Trace:
+#0 C:\wamp\www\BKSFLSTeam\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\BKSFLSTeam\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#2 C:\wamp\www\BKSFLSTeam\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-05-19 22:15:51 Error: [MissingActionException] Action PostsController::players() could not be found.
+Exception Attributes: array (
+  'controller' => 'PostsController',
+  'action' => 'players',
+)
+Request URL: /BKSFLSTeam/posts/players
+Stack Trace:
+#0 C:\wamp\www\BKSFLSTeam\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\BKSFLSTeam\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#2 C:\wamp\www\BKSFLSTeam\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-05-19 22:22:54 Error: Fatal Error (4): syntax error, unexpected '<' in [C:\wamp\www\BKSFLSTeam\app\View\Layouts\default.ctp, line 58]
+2015-05-19 22:22:54 Error: [FatalErrorException] syntax error, unexpected '<'
+Request URL: /BKSFLSTeam/posts/index/posts
+Stack Trace:
+#0 C:\wamp\www\BKSFLSTeam\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\wamp\\www\\BKS...', 58)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\wamp\\www\\BKS...', 58, Array)
+#2 C:\wamp\www\BKSFLSTeam\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\wamp\\www\\BKS...', 58, Array)
+#3 C:\wamp\www\BKSFLSTeam\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-05-19 22:22:56 Error: Fatal Error (4): syntax error, unexpected '<' in [C:\wamp\www\BKSFLSTeam\app\View\Layouts\default.ctp, line 58]
+2015-05-19 22:22:56 Error: [FatalErrorException] syntax error, unexpected '<'
+Request URL: /BKSFLSTeam/posts/index/posts
+Stack Trace:
+#0 C:\wamp\www\BKSFLSTeam\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\wamp\\www\\BKS...', 58)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\wamp\\www\\BKS...', 58, Array)
+#2 C:\wamp\www\BKSFLSTeam\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\wamp\\www\\BKS...', 58, Array)
+#3 C:\wamp\www\BKSFLSTeam\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-05-19 22:24:45 Error: Fatal Error (4): syntax error, unexpected 'echo' (T_ECHO), expecting ',' or ';' in [C:\wamp\www\BKSFLSTeam\app\View\Layouts\default.ctp, line 58]
+2015-05-19 22:24:45 Error: [FatalErrorException] syntax error, unexpected 'echo' (T_ECHO), expecting ',' or ';'
+Request URL: /BKSFLSTeam/posts/index/posts
+Stack Trace:
+#0 C:\wamp\www\BKSFLSTeam\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\wamp\\www\\BKS...', 58)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\wamp\\www\\BKS...', 58, Array)
+#2 C:\wamp\www\BKSFLSTeam\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\wamp\\www\\BKS...', 58, Array)
+#3 C:\wamp\www\BKSFLSTeam\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-05-19 22:24:57 Error: Fatal Error (4): syntax error, unexpected ')' in [C:\wamp\www\BKSFLSTeam\app\View\Layouts\default.ctp, line 59]
+2015-05-19 22:24:57 Error: [FatalErrorException] syntax error, unexpected ')'
+Request URL: /BKSFLSTeam/posts/index/posts
+Stack Trace:
+#0 C:\wamp\www\BKSFLSTeam\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\wamp\\www\\BKS...', 59)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\wamp\\www\\BKS...', 59, Array)
+#2 C:\wamp\www\BKSFLSTeam\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\wamp\\www\\BKS...', 59, Array)
+#3 C:\wamp\www\BKSFLSTeam\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-05-19 22:25:00 Error: Fatal Error (4): syntax error, unexpected ')' in [C:\wamp\www\BKSFLSTeam\app\View\Layouts\default.ctp, line 59]
+2015-05-19 22:25:00 Error: [FatalErrorException] syntax error, unexpected ')'
+Request URL: /BKSFLSTeam/posts/index/posts
+Stack Trace:
+#0 C:\wamp\www\BKSFLSTeam\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\wamp\\www\\BKS...', 59)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\wamp\\www\\BKS...', 59, Array)
+#2 C:\wamp\www\BKSFLSTeam\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\wamp\\www\\BKS...', 59, Array)
+#3 C:\wamp\www\BKSFLSTeam\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-05-19 22:27:26 Error: [MissingActionException] Action PostsController::users() could not be found.
+Exception Attributes: array (
+  'controller' => 'PostsController',
+  'action' => 'users',
+)
+Request URL: /BKSFLSTeam/posts/users/login
+Stack Trace:
+#0 C:\wamp\www\BKSFLSTeam\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\BKSFLSTeam\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#2 C:\wamp\www\BKSFLSTeam\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-05-19 22:27:46 Error: [MissingActionException] Action PostsController::users() could not be found.
+Exception Attributes: array (
+  'controller' => 'PostsController',
+  'action' => 'users',
+)
+Request URL: /BKSFLSTeam/posts/users/login
+Stack Trace:
+#0 C:\wamp\www\BKSFLSTeam\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\BKSFLSTeam\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#2 C:\wamp\www\BKSFLSTeam\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
